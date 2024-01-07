@@ -1,0 +1,635 @@
+
+header{
+    width: 1263.33px;
+    height: 120px;
+    background-color: #ffff;
+    position: relative;
+    .box {
+        --mask:
+          radial-gradient(30.52px at 50% calc(100% - 42.50px),#000 99%,#0000 101%) calc(50% - 50px) 0/100px 100%,
+          radial-gradient(30.52px at 50% calc(100% + 17.50px),#0000 99%,#000 101%) 50% calc(100% - 25px)/100px 100% repeat-x;
+        -webkit-mask: var(--mask);
+                mask: var(--mask);
+      }
+}
+
+header img{
+    width: 185px;
+    height: 185px;
+    z-index: 5;
+}
+
+header .menu-wrapper{
+    width: 1263px;
+    height: 100px;
+    margin: auto;
+}
+header .menu-wrapper .left-menu{
+    width: 445px;
+    height: 76px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .menu-wrapper li a{
+    width: 81.54px;
+    height: 76px;
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px 15px;
+    text-align: center;
+    color: black;
+}
+
+header .menu-wrapper .right-menu{
+    width: 400px;
+    height: 76px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header .header-icons{
+    width: 80px;
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right; 
+    margin-right: 30px;
+}
+
+header .header-icons i{
+    font-size: 24px;
+}
+
+header .header-logo{
+    width: 200px;
+}
+
+header .left-menu .navbar-nav .nav-item a:hover{
+    color: #5FCAC7!important;
+}
+
+header .right-menu .navbar-nav .nav-item a:hover{
+    color: #5FCAC7!important;
+}
+.banner{
+    width: 1263px;
+    height: 559px;
+    background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/revslider/landing/slider_bg.jpg);
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+ }
+
+ .banner-left{
+    width: 501px;
+ }
+ 
+ .banner-left img{
+    width: 289.37px;
+    height: 289.37px;
+ }
+
+ .banner-right img{
+    width: 501px;
+    height: 660.76px;
+    border-radius: 5px;
+ }
+
+ .banner .banner-title p{
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    width: 440px;
+    height: 70px;
+    text-align: center;
+    line-height: 25px;
+ }
+
+ .banner-wave{
+    width: 1263.33px;
+    height: 100px;
+    position: absolute;
+    margin-top: -100px;
+ }
+
+ main{
+    width: 1263.33px;
+    height: 5200px;
+    z-index: 1;
+    position: absolute;
+    background-color: #ffffff;
+ }
+
+ .main-top-cards{
+    width: 1263px;
+    height: 1628.290px;
+ }
+
+ 
+ .main-top-cards .card1,.card2,.card3{
+    width: 420.99px;
+    height: 1462px;
+    padding: 0px 15px;
+ }
+
+ .main-top-cards .card-body{
+    width: 390px;
+    padding: 35px 0px;
+ }
+
+ .main-top-cards p{
+    width: 390px;
+    height: 33.45px;
+    color: #4B4342;
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    font-size: 27px;
+    text-align: center;
+    padding: 0;
+ }
+ 
+ .main-top-cards .card img{
+    width: 390.99px;
+    height: 627.55px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 22px 0px rgba(30,37,54,0.18);
+    cursor: pointer;
+    position: relative;
+    
+ }
+
+ .main-top-cards .card img:hover{
+    top: 10px;
+    transition: all .6s cubic-bezier(.2, .55, .1, .7);
+ }
+
+main .unique{
+    width: 1263px;
+    height: 759px;
+    background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/516360906.jpg?id=188);
+    -webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+
+main .unique .content{
+    width: 1263px;
+    height: 759px;
+    background-color: rgba(95, 202, 199, 0.8);
+    z-index: 7;
+    padding-bottom: 100px;
+}
+
+
+main .unique .content .unique-logo{
+    height: 180px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+
+main .unique .content .unique-logo svg{
+    width: 185px;
+    height: 185px;
+}
+
+main .unique .content .unique-logo img{
+    width: 126px;
+    height: 119.19px;
+    position: absolute;
+    top: 35px;
+}
+
+main .unique .content .unique-title{
+    height: 160px;
+}
+
+main .unique .content .unique-title span{
+    color: #ffffff;
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+main .exclusive{
+    width: 1263px;
+    height: 850px;
+    background-image:linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/490998318.jpg?id=175);
+    -webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    
+}
+
+main .exclusive .left{
+    width: 400px;
+    height: 550px;
+}
+
+main .exclusive .left .left-body{
+    width: 400px;
+    height: 308.79px;
+    padding: 30px 15px 0px;
+}
+
+main .exclusive .left .left-body img{
+    width: 82px;
+    height: 39px;
+    margin: 0px 145px;
+}
+
+main .exclusive .left .left-body span:first-child{
+    width: 190.48px;
+    height: 60.67px;
+    color: #5FCAC7;
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    font-size: 42px;
+    padding: 0px 105px;
+    
+}
+
+main .exclusive .left .left-body span:nth-last-of-type(1){
+    width: 370px;
+    height: 50.4px;
+    color: #4B4342;
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 45px;
+    margin-left: 15px;
+}
+
+main .exclusive .left .left-body p{
+    width: 370px;
+    height: 60px;
+    color: #4B4342;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+
+main .exclusive .right{
+    width: 800px;
+    height: 520px;
+}
+
+main .exclusive .right .carousel-item img{
+    width: 770px;
+    height: 441px;
+}
+
+main .theme{
+    position: relative;
+    width: 1263px;
+    height: 862.93px;
+    background-color: #FF91A4;
+}
+
+main .theme .theme-cards{
+    width: 1263px;
+    height: 612.93px;
+}
+
+
+main .theme .theme-title span{
+    width: 371px;
+    height: 69px;
+    color: #ffffff;
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    font-size: 48px;
+    display: block;
+    margin: 0 auto; 
+}
+main .theme .theme-cards .card{
+    background-color: transparent;
+    border: none;
+}
+
+main .theme .theme-cards .card .icon{
+width: 370px;
+height: 60px;
+}
+
+main .theme .theme-cards .card .icon i{
+    font-size: 60px;
+}
+main .theme .theme-cards .card-1,.card-2,.card-3,.card-4,.card-5,.card-6{
+    width: 400px;
+    height: 257.17px;
+}
+
+main .theme .theme-cards .card-body{
+    width: 370px;
+    height: 137px;
+    padding: 0;
+}
+main .theme .theme-cards .card-body span{
+    width: 356px;
+    height: 40px;
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    font-size: 27px;
+    color:#ffffff;
+    display: block;
+    margin:auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main .theme .theme-cards .card-body p{
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 400;
+    width: 356px;
+    height: 78px;
+    font-size: 17px;
+    color: #ffffff;
+    text-align: center;
+}
+main .theme .theme-svg{
+    position: absolute;
+    top: -80px;
+    z-index: 9;
+    width: 1263px;
+}
+
+main .inner-pages{
+    width: 1263px;
+    height: 1110px;
+}
+
+main .inner-pages .inner-top-cards{
+width: 1263px;
+height: 415px;
+}
+
+main .inner-pages .inner-middle-cards{
+width: 1263px;
+height: 307px;
+}
+
+main .inner-pages .inner-middle-cards .card-body {
+    width: 315.75px;
+    height: 307.79px;
+    padding: 0;
+    
+}
+
+main .inner-pages .inner-middle-cards .inner-card{
+    width: 315px;
+    margin-right: 50px;
+    margin-top: 60px;
+}
+
+main .inner-pages .inner-middle-cards .card-body h3{
+    width: 78px;
+    height: 50.6px;
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    font-size: 42px;
+    color: #5FCAC7;
+    display: block;
+    margin: auto;
+}
+
+main .inner-pages .inner-middle-cards .card-body span{
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    font-size: 42px;
+    color: #4B4342;
+    width: 315.75px;
+    height: 50.4px;
+    display: flex;
+    justify-content: center;
+}
+
+main .inner-pages .inner-middle-cards .card-body .logo{
+    margin: 0px 96.87px;
+    padding: 0px 20px;
+    margin-top: 30px;
+}
+
+main .inner-pages .inner-middle-cards .card-body .logo img{
+    width: 122px;
+    height: 39px;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+
+main .inner-pages .inner-middle-cards .card-body p{
+    width: 315.75px;
+    height: 87px;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #4B4342;
+    text-align: center;
+    padding-top: 20px;
+}
+main .inner-pages .inner-bottom-cards{
+    width: 1263px;
+    height: 380px;
+}
+
+main .inner-pages .card {
+    border: none;
+    padding: 0 15px;
+    margin-top: 10px;
+}
+main .inner-pages .card img{
+    width: 285px;
+    height: 240px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 22px 0px rgba(30,37,54,0.18);
+    position: relative;
+}
+
+main .inner-pages .card img:hover{
+    top: 10px;
+    transition: all .6s cubic-bezier(.2, .55, .1, .7);
+ }
+
+ footer{
+    width: 1263px;
+    height: 595px;
+    background-image:linear-gradient(rgba(75,67,66,0.9), rgba(75,67,66,0.9)), url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/153694902.jpg);
+    -webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    position: absolute;
+    top: 6000px;
+ }
+
+ footer .top{
+    width: 1170px;
+    height: 300px;
+    align-items: center;
+    margin-top: 100px!important;
+ }
+
+
+ footer .top .icon,.footer-logo,.input{
+    width: 390px;
+ }
+
+ footer .icon span{
+    width: 141.25px;
+    height: 43.33px;
+    color: #ffffff;
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    font-size: 30px;
+    display: block;
+    margin: auto;
+ }
+
+ footer .icon{
+    height: 300px;
+ }
+
+ footer .icon > svg{
+    fill: #ffffff;
+    width: 53px;
+    height:25.56px;
+    margin: 10px 153.5px 20px;
+ }
+
+ footer .icon ul{
+    width: 360px;
+    height: 60px;
+    padding: 0;
+ }
+
+ footer .icon ul li{
+    list-style-type: none;
+ }
+
+
+ footer .icon ul li a > svg{
+    width: 57.8px;
+    height: 57.8px;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    transition: all 0.5s;
+ }
+
+ footer .icon ul li .icon-link{
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    padding-top: 18px;
+ }
+
+ footer .footer-logo img{
+    width: 300px;
+    height: 300px;
+    margin: 0px 30px;
+ }
+ footer .input{
+    height: 300px;
+ }
+ footer .input span{
+    width: 301px;
+    height: 43.55px;
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+ }
+
+
+ footer .input > svg{
+    fill: #ffffff;
+    width: 53px;
+    height:25.56px;
+    margin: 10px 153.5px 20px;
+ }
+
+ footer .input input{
+    width: 268.66px;
+    height: 45px;
+    padding: 0px 10px;
+    border: 0.667px solid #B0B0B0;
+    border-radius: 8px;
+ }
+ footer .input input::placeholder{
+    color:black;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 300;
+    font-size: 15px
+ }
+
+ footer .input button{
+    width: 45.667px;
+    height: 43.667px;
+    padding: 0;
+    border: 0.667px solid #ffffff;
+    border-radius: 8px;
+    background-color: #aba4a2;
+    margin-left: 20px;
+ }
+
+ footer .input button > svg{
+    width: 25px;
+    height: 25px;
+ }
+
+
+ footer .bottom{
+    width: 1263px;
+    height: 115px;
+    background-color: #0000004D;
+    --mask:
+    radial-gradient(28.75px at 50% 40.25px,#000 99%,#0000 101%) calc(50% - 46px) 0/92px 100%,
+    radial-gradient(28.75px at 50% -17.25px,#0000 99%,#000 101%) 50% 23px/92px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+          padding: 60px 0px 30px;
+          margin:-20px 0px 0px;
+  
+ }
+
+ footer .bottom span{
+    width: 1170px;
+    height: 25px;
+    color: #ffffff;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 14.7px;
+    display: block;
+    margin: auto;
+    text-align: center;
+ }
